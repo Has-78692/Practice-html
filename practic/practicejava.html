@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let no= parseInt(prompt('Enter number'))
+
+        
+        let sum=0
+            while(no>0){
+
+                let r= no%10
+                let p= r**3;
+                no=Math.floor(no/10)
+               
+                sum +=p
+                
+            }
+    
+            document.write('<br> sum digit'+sum)
+    </script>
+</body>
+</html>
